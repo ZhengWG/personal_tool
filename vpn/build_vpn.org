@@ -1,0 +1,18 @@
+ vultr购买服务器:https://vultr.com/
++ ssh root@服务器ip 登录服务器
+  + 服务器安装shadowsocks:
+    + wget –no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+    + chmod +x ./shadowsocks.sh && ./shadowsocks.sh
++ 本地安装shadowsocks:
+  + sudo add-apt-repository ppa:hzwhuang/ss-qt5
+  + sudo apt-get update
+  + sudo apt-get install shadowsocks-qt5
++ Chrome安装插件:Proxy SwitchOmega
+  + 配置代理协议(SOCKS5)&&代理服务器(127.0.0.1)&&代理端口(1080)
++ BBR加速(服务器上)
+  + wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+  + chmod +x bbr.sh
+  + ./bbr.sh
+  + y安装后重启服务器
+  + lsmod | grep bbr,如果看到tcp_bbr则说明bbr启动
++ TODO: ios配置: http://www.ubuntu520.com/ipsec,l2tp_vpn.html#%E4%BD%BF%E7%94%A8-IPsec-L2TP-%E8%84%9A%E6%9C%AC%E6%90%AD%E5%BB%BA
