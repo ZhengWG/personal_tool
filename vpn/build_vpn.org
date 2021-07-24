@@ -21,7 +21,7 @@
 
   + Chrome安装插件:Proxy SwitchOmega
     + 配置代理协议(SOCKS5)&&代理服务器( ~127.0.0.1~ )&&代理端口( ~1086~ )
-      [[/Users/zhengwengang/Project/notes/tool_note/personal_tool/vpn/../img/build_vpn_20210724_195925.png]]
+      [[../img/build_vpn_20210724_195925.png]]
 
   + BBR加速(服务器上)
 
@@ -65,5 +65,5 @@
 
     iphone通过 ~L2TP~ 连接： 通用->添加VPN配置->选择L2TP->输入用户名/密码/IPsec密码->完成->连接
     电脑也可以通过添加L2TP VPN连接：
-    [[/Users/zhengwengang/Project/notes/tool_note/personal_tool/vpn/../img/build_vpn_20210724_195805.png]]
+    [[../img/build_vpn_20210724_195805.png]]
 
